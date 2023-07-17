@@ -163,3 +163,7 @@ video {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.playbtn:hover {
+  scale: 110%;
+  cursor: pointer;
+}
