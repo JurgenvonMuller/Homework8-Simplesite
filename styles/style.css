@@ -108,8 +108,7 @@ h2 {
 .item {
   position: relative;
   display: inline-block;
-  margin-right: 38px;
-  padding-left: 2px;
+  margin-right: 45px;
 }
 .item:last-child {
   margin-right: 20px;
