@@ -12,7 +12,7 @@ body {
 .nav {
   display: inline-block;
   position: fixed;
-  padding-top:80px;
+  padding-top: 80px;
   padding-bottom: 46px;
   z-index: 1;
 }
@@ -22,12 +22,12 @@ body {
 }
 .undhead {
   position:relative;
-  top:152px;
+  top: 152px;
   padding-top: 100px;
 }
 li {
   display: inline-block;
-  position:relative;
+  position: relative;
   list-style: none;
   margin-right: 45px;
   letter-spacing: 1.6px;
@@ -39,7 +39,7 @@ li:last-child {
 a, h1, h2 {
   color: #000;
 }
-h3,h2,h1 {
+h3, h2, h1 {
   font-weight: 500;
 }
 a {
@@ -58,7 +58,7 @@ article {
 }
 .button {
   display: inline-block;
-  background:#34547A;
+  background: #34547A;
   padding: 19px 41px 20px 41px;
   margin: 60px auto 141px 0px;
   text-align: center;
@@ -67,6 +67,8 @@ article {
 }
 .button:hover {
   box-shadow: #727272 8px 18px 18px;
+  font-size: 18px;
+
 }
 .aboutme {
   width: 100%;
@@ -126,11 +128,9 @@ h3 {
   color: #FFF;
 }
 .span .button, article, a {
+  font-size: 16px;
   font-weight: 400;
   line-height: 164.063%; 
-}
-.span .button, a, article {
-  font-size: 16px;
 }
 .foot>.span {
   font-size: 13px;
@@ -152,7 +152,7 @@ video {
 .playbtn {
   width: 100px;
   height: 100px;
-  position:absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
